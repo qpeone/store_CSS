@@ -1,0 +1,161 @@
+		/*   Menu de navigation   */
+		.header {
+			align-items: center;
+height: 100px;
+		}
+
+		.logo {
+			text-align: left;
+			margin-bottom: -36px;
+		}
+
+		.navPremier {
+			text-align: center;
+		}
+
+		.myCart {
+			float: right;
+			margin-top: -18px;
+		}
+
+		a {
+			text-decoration-line: none;
+			color: black;
+			font-family: Calibri;
+			font-weight: bold;
+			padding-right: 30px;
+		}
+		/*   Bannière   */
+		.sectionPrimaire {
+			display: flex;
+			width: 100%;
+			justify-content: space-between;
+			background-image: url("image/plates-header.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+
+		.title {
+			font-family: Georgia;
+			text-decoration: underline;
+			padding-top: 80px;
+		}
+
+		.information {
+			background-color: black;
+			text-align: center;
+			color: white;
+			height: 300px;
+			z-index: 1;
+			margin: 40px auto;
+			border-right-style: solid;
+			border-left-style: solid;
+			border-right-width: 7px;
+			border-left-width: 7px;
+			font-family: Calibri;
+		}
+
+		.pInformation {
+			padding-top: 10px;
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+
+		/* modification bannière */
+		.header{
+			width: 100%;
+		}
+
+		/* modification bannière */
+		.sectionSecond {
+			width: 100%;
+		}
+
+		/*   div parent des articles    */
+
+		/* Modification avec Fabrice */
+		.divParent {
+			width: 100%;
+			display: flex;
+			height: 600px;
+			padding-top: 50px;
+		}
+
+		.contenerSection1 {
+			width: 20%;
+			height: 100%;
+		}
+
+		.contenerSection2 {
+			width: 20%;
+			height: 100%;
+		}
+
+
+
+		.premiereLigne {
+			width: 60%;
+			display: flex;
+			height: 100%;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+		.premiereLigne div{
+			height: 22%;
+			width: 30%;
+		}
+		.deuxiemeLigne {
+			display: flex;
+		}
+
+		/*   photos    */
+
+		.imageArticle{
+			width: 70%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto; 
+			height: 93px;
+		}
+
+		/*   tarif   */
+
+		.descriptionTarifaire {
+			text-align: center;
+			line-height: 2;
+			font-family: Calibri;
+			font-weight: bold;
+		}
+
+		.Kiriko {
+			color: rgb(52, 69, 68);
+		}
+
+		.price {
+			color: rgb(121, 115, 113);
+		}
+		.nom {
+			text-align: center;
+		}
+		@media screen and (min-width: 320px) and (max-width: 1023px) {
+			
+			
+			
+			.premiereLigne {
+				width: 60%;
+				height: 150%;
+				justify-content: space-between;
+				flex-wrap: wrap;
+			}
+			.premiereLigne div {
+				height: 22%;
+				width: 49%;
+				display: inline-block;
+			}
+			.navPremier{
+				display: none;
+			}
+			
+		}
